@@ -1,0 +1,8 @@
+%tr
+	%td #{user.name}
+	%td #{user.email}
+	%td #{user.full_address}
+	%td #{user.user_type}
+	%td
+		= link_to 'Show', user, class: 'btn btn-default btn-xs'
+		= link_to 'Edit', edit_user_path(user), class: 'btn btn-default btn-xs'

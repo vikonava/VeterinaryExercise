@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  owner: 
+  name: MyString
+  type: 
+  breed: MyString
+  age: 1
+  weight: 9.99
+
+two:
+  owner: 
+  name: MyString
+  type: 
+  breed: MyString
+  age: 1
+  weight: 9.99

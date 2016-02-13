@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  pet: 
+  date: 2016-02-12 16:37:57
+  requires_reminder: false
+  reason_for_visit: MyText
+
+two:
+  pet: 
+  date: 2016-02-12 16:37:57
+  requires_reminder: false
+  reason_for_visit: MyText

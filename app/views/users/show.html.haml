@@ -1,0 +1,24 @@
+%h1 User Information
+.panel.panel-default
+	.panel-heading
+		%h4 #{@user.name}
+	.panel-body
+		%p
+			%b #{t(:email)}:
+			#{@user.email}
+		%p
+			%b #{t(:address)}:
+			#{@user.full_address}
+		%p
+			%b #{t(:user_type)}:
+			#{@user.user_type}
+		- if @user.vet?
+			%p
+				%b #{t(:school_degree)}:
+				#{@user.school_degree}
+			%p
+				%b #{t(:years_in_practice)}:
+				#{@user.school_degree}
+	.panel-footer
+		= link_to 'Go Back', :back, class: 'btn btn-default'
+		= link_to 'Edit', edit_user_path(@user), class: 'btn btn-default'
